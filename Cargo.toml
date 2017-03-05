@@ -1,0 +1,18 @@
+[package]
+name = "piston-games"
+version = "0.1.0"
+authors = ["ding"]
+
+[dependencies]
+piston_window = "*"
+find_folder = "*"
+rand = "*"
+# ears = "*"
+
+# Lastest Rustc-nightly is required to build clippy
+# clippy = "*"
+
+[[bin]]
+name = "tetris"
+# path = "src/test_tmp.rs"
+path = "src/my_tetris.rs"
